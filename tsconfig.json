@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "lib": ["dom", "es2015"],
+        "types": [
+            "webassembly-js-api",
+            "emscripten_module",
+            "emscripten_point",
+            "emscripten_point.wasm"
+        ],
+        "typeRoots": [
+            "./types"
+        ]
+    },
+    "include": [
+        "./**/*.ts"
+    ]
+}
