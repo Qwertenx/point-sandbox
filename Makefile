@@ -8,6 +8,6 @@ CMAKE   ?= cmake
 
 .PHONY: dev
 dev:
-	$(CMAKE) -B$(OUTPUT_WASM) -H$(WASM_PATH) -DTARGET_ENV=WASM -DCMAKE_BUILD_TYPE=Release
+	$(CMAKE) -B$(OUTPUT_WASM) -H$(WASM_PATH) -DCMAKE_BUILD_TYPE=Release
 	$(CMAKE) --build $(OUTPUT_WASM) --target point.js
 	$(NPM) run dev

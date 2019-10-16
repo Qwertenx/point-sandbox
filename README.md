@@ -1,4 +1,4 @@
-#How to run
+# How to run
 To run this project first do:
 ````
 npm install
